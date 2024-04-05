@@ -4,7 +4,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setuptools.setup(
-    name="guardshield_mod",
+    name="guardshield",
     version="1.1.6",
     author="Oxyn",
     author_email="oxyn.dev@gmail.com",
